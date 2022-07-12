@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    margin-top: 0%;
+    margin-top: -20px;
 }
 #background-picture{
     background-image: url(images/Background-image.jpg);
@@ -10,9 +10,64 @@ body{
     width: 100%;
     height: 100vh;
 }
-#text-align{
-    color: magenta;
+.text-align{
+    color: white;
     font-weight: 700;
     text-align: center;
     padding-top: 15%;
+}
+.link{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.tom-jerry{
+    text-align: center;
+    margin-top: 100px;
+}
+.color-tomato{
+    color: tomato;
+}
+.flexible-container{
+    display: flex;
+    margin-top: 100px;
+}
+.charecter{
+    color: black;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 20px;
+}
+#tom{
+    background-image: url(images/tom.jpg);
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+#jerry{
+    background-image: url(images/jerry.jpg);
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+#spike{
+    background-image: url(images/spike.jpg);
+    text-align: justify;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
 }
