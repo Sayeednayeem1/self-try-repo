@@ -71,3 +71,31 @@ body{
     width: 100%;
     height: 50vh;
 }
+.tom-jerry-relation{
+    color: black;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 20px;
+}
+.tom-spike-relation{
+    color: black;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 20px;
+}
+.youtube-link{
+    text-align: center;
+    border: 3px solid tomato;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 25px;
+}
+#footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
